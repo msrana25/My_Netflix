@@ -11,7 +11,7 @@ My_Netflix is a web application that features a beautiful UI/UX like Netflix, wh
 - Uses firestore DB provided by Firebase.
 
 ## Tech Stack
-
+- React for front-end development
 - Redux for state management
 - Tons of CSS using BEM methodology for styling
 - Payment authentication using Stripe
