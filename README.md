@@ -1,12 +1,23 @@
 # My_Netflix
-Netflix Application built with REACT.JS. Integrated with Stripe Checkout &amp; Webhooks, Redux, Firestore, Google Auth.
-Features :-
+
+My_Netflix is a web application that features a beautiful UI/UX like Netflix, where movie data is pulled in from the TMDB database using their API. Users can easily sign up, login and logout using Firebase Authentication, and they can subscribe to monthly subscriptions using Stripe payment integration.
+
+Features
 Beautiful UI/UX like Netflix Application.
 Movie data is pulled in from TMDB database using their API.
 Supports Login and Logout using Firebase Authentication.
-Integrated with Stripe payment where which allows users to have monthly subscriptions(For testing stripe, use card number as 424242424242 and expiry date as 04/24 
-and cvv as 424)
-Uses firestore DB provided by firebase.
+Integrated with Stripe payment which allows users to have monthly subscriptions(For testing stripe, use card number as 424242424242 and expiry date as 04/24 and cvv as 424)
+Uses firestore DB provided by Firebase.
+Tech Stack
+Redux for state management
+Tons of CSS using BEM methodology for styling
+Payment authentication using Stripe
+User authentication using Firebase Authentication API
+Deployed using Firebase hosting
+Getting Started
+To get started, follow these steps:
 
-Tech Stack :- Redux, Tons of CSS(using BEM), State Management using Redux, Payment Authentcation using Stripe, User Authentication using Firebase Authentication API
-and deployed using Firebase hosting
+Clone the repository and navigate to the project directory.
+Install dependencies using npm install.
+Create a .env file in the root directory and add your Firebase and Stripe credentials.
+Start the app using npm start.
