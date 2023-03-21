@@ -1,5 +1,4 @@
 # My_Netflix
-![My_Netflix](https://i.imgur.com/WtfKAYM.png)
 
 My_Netflix is a web application that features a beautiful UI/UX like Netflix, where movie data is pulled in from the TMDB database using their API. Users can easily sign up, login and logout using Firebase Authentication, and they can subscribe to monthly subscriptions using Stripe payment integration.
 
